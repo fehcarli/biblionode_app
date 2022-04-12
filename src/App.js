@@ -6,14 +6,13 @@ import Header from "./pages/fragments/Header";
 import Footer from "./pages/fragments/Footer";
 
 function App() {
-
-  return (
-    <Router>
-      <Header/>
-      <Routes/>
-      <Footer/>
-    </Router>
-  )
+    return(
+        <Router>
+            <Header />
+            <Routes />
+            <Footer />
+        </Router>
+    );
 }
 
-export default App
+export default App;
