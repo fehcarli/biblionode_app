@@ -8,8 +8,8 @@ function App() {
   return(
       <Router>
           <Header/>
-          <Routes />
-          
+          <Routes/>
+          <Footer/>
       </Router>
   );
 }
