@@ -18,6 +18,7 @@ export default function Books(){
     return (
         <main>
             <div className="container mx-auto py-5">
+                <h1>Lista de Livros</h1>
                 <Table striped bordered hover size="sm">
                     <thead>
                         <tr>

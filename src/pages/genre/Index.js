@@ -17,6 +17,7 @@ export default function Genres(){
     return (
         <main>
             <div className="container mx-auto py-5">
+                <h1>Lista de Gêneros Literários</h1>
                 <Table striped bordered hover size="sm">
                     <thead>
                         <tr>
