@@ -4,10 +4,10 @@ import {
     Route 
 } from "react-router-dom";
 
-import Home from "./pages/home/Index";
-import Dashboard from "./pages/dashboard/Index";
-import Genres from "./pages/genre/Index";
-import Books from "./pages/book/Index";
+import Home from "./home/Index";
+import Dashboard from "./dashboard/Index";
+import Genres from "./genre/Index";
+import Books from "./book/Index";
 
 export default function AppRoutes(){
     return (
@@ -15,7 +15,7 @@ export default function AppRoutes(){
             <Route path="/" element={<Home/>}/>
             <Route path="/dashboard" element={<Dashboard />}/>
             <Route path="/genres" element={<Genres/>}/>
-            <Route path="/books" element={<Books/>}></Route>
+            <Route path="/books" element={<Books/>}/>
         </Routes>
     );
 }
